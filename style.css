@@ -84,6 +84,7 @@ img {
     width: 50%;
     margin-left: 3rem;
     margin-right: 3rem;
+    text-align: left;
   }
 
   .main {
@@ -94,6 +95,7 @@ img {
 
   .card_stat {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    column-gap: 3rem;
   }
 }
