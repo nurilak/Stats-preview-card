@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Basic CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="images-and-transparent">
+        <picture class="images">
+          <source
+            srcset="images/image-header-desktop.jpg"
+            media="(min-width: 600px)"
+          />
+          <img
+            src="./images/image-header-mobile.jpg"
+            alt="People are sitting at the table and working on their laptops"
+            class="mobile_image"
+          />
+        </picture>
+        <div class="transparent_color"></div>
+      </div>
+
+      <div class="text">
+        <h1 class="card_title">
+          Get <span class="word_decor">insights</span> that help your business
+          grow.
+        </h1>
+        <p class="main_paragraph">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="card_stat">
+          <div class="stat">
+            <p class="stat_heading">10k+</p>
+            <p class="stat_info">companies</p>
+          </div>
+          <div class="stat">
+            <p class="stat_heading">314</p>
+            <p class="stat_info">templates</p>
+          </div>
+          <div class="stat">
+            <p class="stat_heading">12m+</p>
+            <p class="stat_info">queries</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
